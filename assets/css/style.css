@@ -160,8 +160,9 @@ li.title__network__item a {
 section.about{
     display: flex;
     align-items: center;
-    width: 100%;
     flex-direction: column;
+    width: 100%;
+    padding: 64px;
     background: var(--color-fundo-azul)
 }
 
@@ -347,6 +348,7 @@ div.experiencie__box img {
 section.formcontato{
     display: flex;
     width: 100%;
+    padding: 64px 0 0;
     background: var(--color-fundo-azul);
     align-items: center;
     justify-content: center;
@@ -354,13 +356,16 @@ section.formcontato{
 
 .formcontato__contacto {
     display: flex;
-    padding: 64px;
     width: 1136px;
     align-items: center;
-    padding: 64px 0 0;
     gap: 16px
 }
-
+.formcontato__text {
+    display: flex;
+    height: 596px;
+    flex-direction: column;
+    width: 656px;
+}
 h3.formcontato__subtext {
     font-size: 16px;
 }
@@ -369,7 +374,8 @@ form.formcontato__form {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 32px;
+    justify-content: space-between;
+    height: 100%;
     margin-top: 32px;
     
 }
@@ -550,9 +556,7 @@ utilize como referência os breakpoints @media abaixo*/
     .formcontato--esquerda {
         display: none;
     }
-    form.formcontato__form {
-        gap: 20px;
-    }
+    
     .formcontato__text {
         width: 100%;
     }
