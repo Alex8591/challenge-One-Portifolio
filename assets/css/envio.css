@@ -1,0 +1,71 @@
+:root {
+
+    --fonte-peso: 400;
+    --fonte-tamanho-titulo: 28px;
+    --fonte-familia-corpo: 'Montserrat', sans-serif;
+
+    --cor-primaria: #0071ea;
+    --cor-secundaria: #d6eaff;
+    --cor-contraste-escuro: #4D4D4D;
+    --cor-contraste-claro: #fff;
+    --cor-contraste-escuro: #4D4D4D;
+    --sombra: 0 5px 10px #55a6ff38;
+}
+
+body {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-contraste-escuro);
+    font-family: var(--fonte-familia-corpo);
+    
+}
+
+.icone-concluido {
+    display: block;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-bottom: 1rem;
+    background-image: url(../img/checkmark.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container-envio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email-enviado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--cor-contraste-claro);
+    border-radius: 10px;
+    box-shadow: var(--sombra);
+    width: 100%;
+    max-width: 45rem;
+    padding: 1.75rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+
+.email-enviado__titulo{
+    font-size: var(--fonte-tamanho-titulo);
+    margin-bottom: 1rem;
+    max-width: 20rem;
+    font-weight:  var(--fonte-peso);
+}
+.botao{
+    display: block;
+    background-color: var(--cor-primaria);
+    border-radius: 7px;
+    width: 100%;
+    margin-top: 1rem;
+    max-width: 20rem;
+    padding: 1.125rem;
+    box-sizing: border-box;
+    color: var(--cor-contraste-claro);
+    font-size: var(--fonte-tamanho-botao);
+    align-self: center;
+    text-align: center;
+    text-decoration: none;
+}
