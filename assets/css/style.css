@@ -397,7 +397,7 @@ textarea.formcontato__textarea {
     resize: none;
 }
 
-a.formcontato__botao {
+button.formcontato__botao {
     display: flex;
     justify-content: center;
     align-items: center;

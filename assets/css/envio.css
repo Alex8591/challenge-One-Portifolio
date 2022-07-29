@@ -19,6 +19,12 @@ body {
     
 }
 
+
+.container-envio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .icone-concluido {
     display: block;
     width: 3.5rem;
@@ -27,11 +33,6 @@ body {
     background-image: url(../img/checkmark.svg);
     background-size: cover;
     background-repeat: no-repeat;
-}
-.container-envio {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .email-enviado {
     display: flex;
